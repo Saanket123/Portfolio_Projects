@@ -1,0 +1,298 @@
+body{
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container1{
+  display: flex;
+  padding: 20px;
+  background-color: #20CD8D;
+  height: 100vh;
+  justify-content: space-between;
+  padding-top: 84px;
+  
+}
+.subContainer1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 92px;
+}
+.subContainer1 > :nth-child(1){
+  color: white;
+  height: 250px;
+  font-size: 25px
+}
+.subContainer1 div > :nth-child(1){
+  color: #231F1F;
+  background-color: #231F1F;
+  padding: 2px 1.5px;
+  margin-right: 10px;
+  
+}
+.subContainer1 > :nth-child(2){
+  color: white;
+  margin-bottom: 0;
+  font-size: 74px;
+  overflow: hidden; /* Hide overflowing characters */
+  animation: typewriter 3s steps(40) infinite; /* Apply the typewriter animation */
+  white-space: nowrap; /* Keep the text on a single line */
+  
+}
+
+
+.subContainer1 > :last-child{
+  background-color: #231F1F;
+  width: 250px;
+  padding: 8px;
+  text-align: center;
+  color: #20CD8D;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 28px;
+  margin-top: 10px;
+  
+}
+
+.subContainer2{
+  overflow: hidden;
+}
+
+.subContainer2 img{
+  width: 700px;
+  padding-right: 200px;
+  mix-blend-mode: multiply;
+  animation: pulse 10s infinite;
+    
+}
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); /* Initial and final scale value (no scaling) */
+  }
+  50% {
+    transform: scale(1.2); /* Scale up to 1.2 at 50% of the animation */
+  }
+}
+@keyframes typewriter {
+  from {
+    width: 0; /* Start with no width (hidden text) */
+  }
+  to {
+    width: 100%; /* Reveal the entire text */
+  }
+}
+
+/* Styling for 2nd page */
+
+.container2{
+  height: 100vh;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+
+
+
+}
+
+
+.subContainer1_2{
+  background-color: #F4F4F4;
+  text-align: center;
+  width: 30%;
+  height: 80vh;
+  border-radius: 30px;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+
+}
+.subContainer1_2 > :nth-child(1){
+ padding-top: 50px;
+  
+}
+.subContainer1_2 > :nth-child(3){
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+
+  font-size: larger;
+  
+}
+
+/* Third page styling */
+.container3{
+  height: 100vh;
+  background-color:#182527;
+  text-align: center;
+}
+.container3 h1{
+color: #20CD8D;
+font-size: 40px;
+padding: 50px;
+font-weight: bolder;
+}
+
+.subContainer3_1{
+   display: flex;
+   gap: 30px;
+   width: 80%;
+   margin: auto;
+}
+.project1,.project2,.project3{
+  text-align: left;
+  width: 35%;
+}
+.project1 :nth-child(2),
+.project2 :nth-child(2),
+.project3 :nth-child(2){
+color: #20CD8D;
+font-size: larger;
+font-weight: bold;
+} 
+.project1 :nth-child(3),
+.project2 :nth-child(3),
+.project3 :nth-child(3){
+color:#FFFFFF;
+} 
+.project1 :nth-child(1),
+.project2 :nth-child(1),
+.project3 :nth-child(1){
+color: #FFFFFF;
+font-size: 30px;
+padding-bottom: 20px;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fourth page styling */
+.container4{
+  height: 100vh;
+  text-align: center;
+  background-color: #20CD8D;
+
+
+}
+.container4 h1{
+  font-size: 50px;
+  padding: 50px;
+  color: #FFFFFF;
+}
+
+.subContainer1_4{
+  display: flex;
+  padding-left: 80px;
+  width: 85%;
+  gap: 100px;
+  padding-top: 150px  ;
+  text-align: left;
+  margin: auto;
+}
+.skill{
+  font-size: larger;
+  width: 45%;
+}
+
+.skill i {
+  color: #FFFFFF;
+  padding-bottom: 45px;
+  font-size: 70px;  
+}
+
+.a :nth-child(2),.b :nth-child(2),.c :nth-child(2){
+  font-size:xx-large;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+.a :nth-child(2) ,.b :nth-child(2) ,.c :nth-child(2) {
+  font-size: 30px;
+  
+}
+
+.a :nth-child(2) :nth-child(1) ,
+.b :nth-child(2) :nth-child(1) ,
+.c :nth-child(2) :nth-child(1){
+   color: #046B46;
+  font-size: 40px;
+}
+
+
+/* Contact me page */
+.lastContainer{
+  background-color: #182527;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.lastContainer img{
+  height: 600px;
+  width: 400px;
+  /* mix-blend-mode: multiply; */
+  margin: 80px ;
+  border-radius: 50%;
+}
+.right_side{
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.ContactMe{
+  text-align: center;
+}
+.ContactMe > :nth-child(1){
+  color: #20CD8D;
+  margin-bottom: 70px;
+}
+.bold{
+  font-weight: bolder;
+  font-size: 30px;
+  /* margin-bottom: 0px; */
+}
+.phone > :nth-child(2){
+  background-color: #20CD8D;
+  color: #182527;
+  padding: 5px 20px 5px 20px;
+  border-radius: 30px;
+  margin-top: 0px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+
+}
+.email > :nth-child(2){
+  background-color: #20CD8D;
+  color: #182527;
+  padding: 5px;
+  border-radius: 30px;
+  font-weight: bolder;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.email > :first-child{
+  margin-top: 30px;
+}
+.socials > :first-child{
+  margin-top: 30px;
+}
+
+.socials > :nth-child(2) >  *{
+  background-color: #20CD8D;
+  padding: 5px;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 50%;
+  color: #182527;
+  font-weight: bolder;
+}
