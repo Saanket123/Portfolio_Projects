@@ -242,7 +242,7 @@ padding-bottom: 20px;
   width: 400px;
   /* mix-blend-mode: multiply; */
   margin: 80px ;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .right_side{
   margin-top: 100px;
