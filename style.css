@@ -296,3 +296,46 @@ padding-bottom: 20px;
   color: #182527;
   font-weight: bolder;
 }
+
+
+/* Tech i learnt page */
+.container3_1{
+  background-color: #FFFFFF;
+  text-align: center;
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+}
+
+.container3_1 h1{
+  color: #20CD8D;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+.tech{
+  display: flex;
+  justify-content: space-around;
+
+}
+.box{
+  background-color: #F4F4F4;
+  padding: 30px;
+  text-align: left;
+  font-size: x-large;
+  border-radius: 30px;
+  
+}
+.box p{
+  color: #20CD8D;
+  font-weight: bold;
+}
+.box ul{
+  list-style: none;
+
+}
+.box ul li{
+  padding: 5px;
+}
+
